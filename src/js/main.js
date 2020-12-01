@@ -4,8 +4,8 @@ let newCircle;
 
 container.addEventListener("click", function(event) {
     number++;
-    var x = event.pageX;     // Get the horizontal coordinate
-    var y = event.pageY;     // Get the vertical coordinate
+    var x = event.pageX;     
+    var y = event.pageY;     
     newCircle = document.createElement("div");
     newCircle.setAttribute("id", `node${number}`);
     var node = document.createTextNode(number);
