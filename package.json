@@ -2,16 +2,20 @@
   "name": "Mouse-FingerPrint",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "author": "mahya kabiri",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.9.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.10.3"
   }
 }
