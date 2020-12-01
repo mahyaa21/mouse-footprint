@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-    entry: './src/js/main.js',
+    entry: './src/app.js',
     mode: 'development',
     output: {
         path: `${__dirname}/dist`,
