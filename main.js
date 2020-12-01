@@ -8,7 +8,8 @@ function myFunction(event) {
     newCircle = document.createElement("div");
     var node = document.createTextNode(number);
     newCircle.appendChild(node);
-    newCircle.classList.add("circle");
+    let newStyle = (number % 5 === 0) ? "orange-circle" : "circle";
+    newCircle.classList.add(newStyle);
     newCircle.style.cssText = `top:${y}px;left:${x}px;`
     container.appendChild(newCircle);
 }
